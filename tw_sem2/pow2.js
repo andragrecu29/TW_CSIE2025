@@ -14,6 +14,6 @@ if(process.argv.length<3)
 }
 else
 {
-    console.log(pow2(parseInt.argv[2]))
+    console.log(pow2(parseInt(process.argv[2])))
 }
 
